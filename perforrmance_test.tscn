@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://xggf4qv12put"]
+
+[ext_resource type="PackedScene" uid="uid://mikm4f1edppd" path="res://propeller/propeller.blend" id="1_4smvf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j78nk"]
+transparency = 1
+albedo_color = Color(0.27451, 0.27451, 0.27451, 0.0196078)
+disable_receive_shadows = true
+
+[node name="propeller" instance=ExtResource("1_4smvf")]
+
+[node name="Propeller" parent="." index="0"]
+cast_shadow = 0
+surface_material_override/0 = SubResource("StandardMaterial3D_j78nk")
