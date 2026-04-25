@@ -1,7 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://c0u11t53cbl85"]
+[gd_scene format=3 uid="uid://c0u11t53cbl85"]
 
 [ext_resource type="PackedScene" uid="uid://w122taclqddx" path="res://blender/test.blend" id="1_sanam"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=1144468939]
 
-[node name="test" parent="." instance=ExtResource("1_sanam")]
+[node name="test" parent="." unique_id=1304472525 instance=ExtResource("1_sanam")]

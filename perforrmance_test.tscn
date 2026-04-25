@@ -11,6 +11,6 @@ disable_receive_shadows = true
 
 [node name="propeller" unique_id=889857030 instance=ExtResource("1_4smvf")]
 
-[node name="Propeller" parent="." index="0" unique_id=209452573]
+[node name="Propeller" parent="." index="0" unique_id=131033465]
 cast_shadow = 0
 surface_material_override/0 = SubResource("StandardMaterial3D_j78nk")

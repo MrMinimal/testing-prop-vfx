@@ -1,9 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://bgnhp6l34bygb"]
+[gd_scene format=3 uid="uid://bgnhp6l34bygb"]
 
 [ext_resource type="PackedScene" uid="uid://w122taclqddx" path="res://blender/test.blend" id="1_co2up"]
 [ext_resource type="Material" uid="uid://dtr3ttw44gv3o" path="res://blender/mat_test.tres" id="2_u8fm6"]
 
-[node name="test" instance=ExtResource("1_co2up")]
+[node name="test" unique_id=2056148674 instance=ExtResource("1_co2up")]
 
-[node name="Plane" parent="." index="0"]
+[node name="Plane" parent="." index="0" unique_id=1969076356]
 surface_material_override/0 = ExtResource("2_u8fm6")
