@@ -1,14 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://xggf4qv12put"]
+[gd_scene format=3 uid="uid://xggf4qv12put"]
 
 [ext_resource type="PackedScene" uid="uid://mikm4f1edppd" path="res://propeller/propeller.blend" id="1_4smvf"]
+[ext_resource type="Texture2D" uid="uid://c62uxave4mhfx" path="res://propeller/textures/Body_MAT_baseColor.png" id="2_j78nk"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_j78nk"]
 transparency = 1
 albedo_color = Color(0.27451, 0.27451, 0.27451, 0.0196078)
+albedo_texture = ExtResource("2_j78nk")
 disable_receive_shadows = true
 
-[node name="propeller" instance=ExtResource("1_4smvf")]
+[node name="propeller" unique_id=889857030 instance=ExtResource("1_4smvf")]
 
-[node name="Propeller" parent="." index="0"]
+[node name="Propeller" parent="." index="0" unique_id=209452573]
 cast_shadow = 0
 surface_material_override/0 = SubResource("StandardMaterial3D_j78nk")
